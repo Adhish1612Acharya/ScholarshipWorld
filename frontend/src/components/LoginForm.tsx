@@ -35,7 +35,7 @@ function Copyright(props: any) {
     >
       {"Copyright © "}
       <Link to={"/"} color="inherit">
-        FarmersWorld
+        SchoalarshipWorld
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -78,7 +78,7 @@ const LoginForm: FC<loginFormProps> = ({ route }) => {
           sx={{
             backgroundImage:
               route === "farmers/login"
-                ? "url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPJE-W8GqloneY1by63uPPTnK_6abrG1Y_hDxmBda4BUQmOB7-ejxc7za10h65n2z2D0IudXZxc205WmxmV7hZwW8YpM406qUQOkzSrqDQg1dGq4pS_8ZkI0zFzADUNZwWoL4VeRbYyStkfLe2zEZs1ob1sFtdtrEETPm1GtpaVyWpmTGu6r17mqEP8OA/s3072/InShot_20240521_002930682.jpg)"
+                ? "url(https://cdn5.vectorstock.com/i/1000x1000/37/09/scholarship-money-and-certificate-cartoon-vector-43443709.jpg)"
                 : "url(https://icon-library.com/images/admin-icon/admin-icon-12.jpg)",
 
             backgroundColor: (t) =>
@@ -110,7 +110,7 @@ const LoginForm: FC<loginFormProps> = ({ route }) => {
               <h1>
                 Login as{" "}
                 {route === "farmers/login" ? (
-                  <span>Farmer</span>
+                  <span>Student</span>
                 ) : (
                   <span>Admin</span>
                 )}
@@ -128,7 +128,7 @@ const LoginForm: FC<loginFormProps> = ({ route }) => {
                       margin: "1rem",
                     }}
                   >
-                    <b>Farmer</b>
+                    <b>Student</b>
                   </Button>
                   <Button
                     variant="contained"
@@ -157,7 +157,7 @@ const LoginForm: FC<loginFormProps> = ({ route }) => {
                       margin: "1rem",
                     }}
                   >
-                    Farmer
+                    Student
                   </Button>
                   <Button
                     variant="contained"

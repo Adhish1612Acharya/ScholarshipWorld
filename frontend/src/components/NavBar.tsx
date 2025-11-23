@@ -271,7 +271,7 @@ const NavBar: React.FC<navbarProps> = ({
                   },
                 }}
                 alt=""
-                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPJE-W8GqloneY1by63uPPTnK_6abrG1Y_hDxmBda4BUQmOB7-ejxc7za10h65n2z2D0IudXZxc205WmxmV7hZwW8YpM406qUQOkzSrqDQg1dGq4pS_8ZkI0zFzADUNZwWoL4VeRbYyStkfLe2zEZs1ob1sFtdtrEETPm1GtpaVyWpmTGu6r17mqEP8OA/s3072/InShot_20240521_002930682.jpg"
+                src="https://tse3.mm.bing.net/th/id/OIP.jNXyDn-YbWEyO9nKCsrs-gHaH_?pid=Api&P=0&h=220"
               />
 
               <Typography
@@ -289,7 +289,7 @@ const NavBar: React.FC<navbarProps> = ({
                 }}
                 onClick={() => navigate("/")}
               >
-                FarmersWorld
+                ScholarshipWorld
               </Typography>
 
               <Avatar
@@ -432,7 +432,7 @@ const NavBar: React.FC<navbarProps> = ({
           </Toolbar>
         </Container>
       </AppBar>
-      {homePage ? (
+      {/* {homePage ? (
         <Box
           sx={{
             backgroundColor: "rgba(240,240,240,1)",
@@ -445,7 +445,7 @@ const NavBar: React.FC<navbarProps> = ({
         >
           <Filter filters={["schemes", "subsidies", "products", "newTech"]} />
         </Box>
-      ) : null}
+      ) : null} */}
     </Box>
   );
 };

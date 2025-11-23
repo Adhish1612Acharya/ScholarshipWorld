@@ -14,6 +14,7 @@ import cors from "cors";
 import errorHandler from "./types/errorHandler";
 import path from "path";
 import MongoStore from "connect-mongo";
+import { ObjectId } from "mongodb";
 
 import Farmer from "./models/Farmers";
 import Admin from "./models/Admin";
@@ -25,8 +26,10 @@ import commonRouter from "./routes/common";
 
 const DB_URL = process.env.DB_PORT || "mongodb://127.0.0.1:27017/farmersworld";
 
+
+
 main()
-  .then(() => {
+  .then(async () => {
     console.log("DB connected");
   })
   .catch((err) => {
